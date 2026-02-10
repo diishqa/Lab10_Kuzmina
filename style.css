@@ -7,3 +7,31 @@ body {
     font-family: "Roboto", Arial,sans-serif;
     background-color: rgb(245, 237, 241);
 }
+.header{
+    background-color: white;
+    padding: 0 16px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(248, 234, 173);
+}
+.header-left,
+.header-center,
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 16 px;
+}
+.header-center {
+    flex: 1;
+    max-width: 600px;
+    margin: 0 40px;
+}
+.search-input {
+    flex: 1;
+}
+.avatar {
+    display: flex;
+    max-width: 50px;
+}
