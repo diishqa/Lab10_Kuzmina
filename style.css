@@ -223,3 +223,8 @@ button:hover {
     font-size: 13px;
     color: #606060;
 }
+.video-grid{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 16px;
+}
